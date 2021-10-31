@@ -1,0 +1,147 @@
+/*Google Foonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Dancing+Script:wght@400;600&family=Fruktur&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Dancing+Script:wght@400;600&family=Fruktur&family=Roboto:wght@700&family=Zen+Antique+Soft&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Crimson+Text:ital@1&family=Dancing+Script:wght@400;600&family=Fruktur&family=Roboto:wght@700&family=Zen+Antique+Soft&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+h1,
+h2 {
+    font-family: 'Crimson Text', serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Fruktur', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Zen Antique Soft', serif;
+    text-transform: uppercase;
+}
+
+ul li a {
+    font-family: 'Crimson Text', serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Fruktur', cursive;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Bree Serif', serif;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Fruktur', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Zen Antique Soft', serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+
+/*Navbar Css*/
+
+.navbar-brand {
+    margin-left: 10%;
+}
+
+.navbar-nav {
+    margin-left: 30%;
+}
+
+.nav-item {
+    padding-left: 40px;
+}
+
+
+/*Client Review*/
+
+.card-box {
+    box-shadow: 5px #888888;
+}
+
+
+/*Layout Section*/
+
+.layout-section {
+    display: flex;
+    list-style-type: none;
+    margin-left: 35%;
+}
+
+.layout-list {
+    border: 1px red;
+    padding-left: 30px;
+}
+
+
+/*About Section*/
+
+.about-container {
+    background-color: #f2f2f2;
+}
+
+.about-img {
+    background-image: url('Images/vila voio.jpg');
+}
+
+
+/*Property Section*/
+
+.property-container {
+    background-color: #fef9f8;
+}
+
+
+/*Client Section*/
+
+.client-container {
+    background-color: #2b6777;
+}
+
+
+/*Footer*/
+
+.footer-nav {
+    background-color: #f2f2f2;
+}
+
+.footer {
+    display: flex;
+    margin-left: 45%;
+}
+
+.footer-icon {
+    padding-left: 15px;
+}
+
+
+/* conatct Form*/
+
+.form {
+    background-color: #ed7966;
+}
+
+.contact-us {
+    background-color: #ed7966;
+}
+
+
+/*button*/
+
+.btn {
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #3e8e41;
+    color: white;
+}
+
+
+/*Logo Image Center*/
+
+.image-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
